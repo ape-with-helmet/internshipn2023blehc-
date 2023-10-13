@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/pop-party-gradient-colorful-background_23-2149386904.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697068800&semt=ais);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first{
+    margin-bottom: 0;
+}
+.text{
+    color:  rgb(80, 80, 80);
+    font-size: 17px;
+    font-weight: 500;
+}
+#smalltext{
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 700;
+}
+.cross{
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40%;
+    display: inline-block;
+}
+.tick{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40%;
+    display: inline-block;
+    
+}
+.t1{
+    padding-top: 13px;
+    margin-top: -0.9em;
+}
+.c1{
+    padding-top: 1px;
+    margin-top: 0em;
+}
+.t2{
+    padding-top: 13px;
+    margin-top: -0.9em;
+}
+.c2{
+    padding-top: 1px;
+    margin-top: -0.9em;
+}
+.t3{
+    padding-top: 15px;
+    margin-top: -1em;
+}
+.column{
+    float: left;
+    width: 33.33%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.one{
+    margin-top: 16%;
+    margin-left: 30%;
+    margin-right: auto;
+    display: block;
+    background-color: azure;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border: none;
+}
+.two{
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: azure;
+    width: 70%;
+    height: 600px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border: none;
+}
+.three{
+    margin-top: 16%;
+    margin-left: auto;
+    margin-right: 30%;
+    display: block;
+    background-color: azure;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border: none;
+}
+.coloring{
+    color: red;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: -.4em;
+    margin-top: 1em;
+}
+.number{
+    color: red;
+    font-size: 55px;
+    margin-bottom: 10%;
+    font-weight: lighter;
+}
+#month{
+    font-size: 15px;
+}
+.cart{
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 120px;
+    font-size: 17px;
+}
+.list{
+    margin-right: auto;
+    margin-left: 15%;
+    text-align: left;
+    padding-top: 8px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+br{
+    display: block;
+    margin-bottom: 1em;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: right;
+    padding-top: 5%;
+}
+.dropdown{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    display: block; 
+    border: none;
+    width: 80%;
+    background-color: inherit;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 60px;
+}
+.mid{
+    padding-top: 5%;
+    color: blueviolet;
+}
+button:hover{
+    opacity: 0.5;
+}
+.middle{
+    color: blueviolet;
+}
+.meddle{
+    background-color: blueviolet;
+}
+.c3{
+    color: darkorange;
+}
+.crt3{
+    background-color: darkorange;
+}
+.ribbon{
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    padding-top: 13px;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: 10px;
+    border: 1px solid rgb(215, 176, 70);
+    position: fixed;
+    right: 809px;
+    overflow: hidden;
+    top: 78px;
+    text-align: center;
+    transform: rotate(320deg);
+    clip-path: polygon(70% 0%, 100% 100%, 0% 100%, 21.5% 0%);
+    background-color: blueviolet;
+    color: white;
+}
+.traps1{
+    width: 66px;
+    height: 8px;
+    position: fixed;
+    right: 817px;
+    top: 61px;
+    background-color: rgba(137, 43, 226, 0.789);
+}
+.traps2{
+    height: 57px;
+    width: 8px;
+    position: fixed;
+    right: 945.5px;
+    top: 118.5px;
+    background-color: rgba(137, 43, 226, 0.816);
+}

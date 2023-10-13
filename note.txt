@@ -1,0 +1,27 @@
+full stack development is the development of website and web applications
+front end:
+    HTML-content/structure
+    CSS-styling
+    javascript-logic/functionality
+    bootstrap-CSS framework
+    react-javascript library
+
+backend
+    nodejs-runtime environment of javascript
+    express js- framework of nodejs
+
+database-
+    mongodb-nosql database
+
+
+alert("whatchu doing?"); gives a pop up
+prompt("Enter the name",""); asks user to enter something
+console.log("Shitty day init?"); writes to console
+document.write("<br><h1>Java script is a language</h1>"); writes on page
+
+variables are containers to store data
+
+variables declaration methods:
+    var
+    let
+    const

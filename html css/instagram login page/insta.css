@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    width: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    display: block;
+}
+.loginbox{
+    border: none;
+    height: 360px;
+    text-align: center;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 10%;
+}
+.logo{
+    width: 60%;
+    margin-bottom: 40px;
+}
+#face{
+    width: 5%;
+    padding-right: 3%;
+}
+.t1{
+    color: rgb(3B, 59, 98);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.t2{
+    font-size: 13px;
+    text-decoration: none;
+}
+.textinput{
+    width: 100%;
+    height: 40px;
+    margin:auto;
+    border: none;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    display: block;
+}
+text::placeholder{
+    margin: auto;
+}
+.login{
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 35px;
+    background-color: #52aafc;
+    color: azure;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.inlay{
+    display: block;
+    position: absolute;
+    top: 54.77%;
+    right: 48%;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    width: 4%;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(174, 172, 172);
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-bottom: 13%;
+}
+.sec{
+    border: none;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 5%;
+    padding-bottom: 6%;
+}
+.newacc{
+    font-size: 15px;
+}
+#ll{
+    text-decoration: none;
+    font-weight: 520;
+    color: #52aafc;
+}
+.thirst{
+    width: 100%;
+
+}
+#app{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.418);
+    left: 47.5%;
+}
+.gplay{
+    width: 70%;
+    margin-left: 30%;
+}
+.micro{
+    margin-top: 23.5%;
+    width: 65%;
+    margin-right: 20%;
+    border: none;
+    border-radius: 6px;
+}
+.col{
+    width: 50%;
+    float: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+button:hover{
+    opacity: 0.5;
+}
+a:hover{
+    opacity: 0.5;
+}
