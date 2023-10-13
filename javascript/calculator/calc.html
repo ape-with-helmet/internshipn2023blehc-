@@ -5,14 +5,19 @@
     <title>calculator</title>
 </head>
 <body>
-    <input type="number" name="num1" id="num1">
-    <select id="op">
-        <option id="mul">*</option>
-        <option id="add">+</option>
-    </select>
-    <input type="number" name="num2" id="num2">
-    <button type="button" onclick="calculator()">Calculate</button>
-    <h1>Answer is <span id="ans"></span></h1>
+    <div class="center">
+        <input class="input" type="number" name="num1" id="num1"><br>
+        <select class="sel" id="op">
+            <option id="add">+</option>
+            <option id="subtract">-</option>
+            <option id="multiply">*</option>
+            <option id="divide">/</option>
+            <option id="remainder">%</option>
+        </select><br>
+        <input class="input" type="number" name="num2" id="num2"><br><br>
+        <button type="button" onclick="calculator()">Calculate</button>
+        <h1>Answer: <span id="ans"></span></h1>
+    </div>
     <script src="calc.js"></script>
 </body>
 </html>
