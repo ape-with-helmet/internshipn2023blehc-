@@ -20,4 +20,7 @@ if (c==3){
 }
 function alet(){
     alert("Successful purchase!");
+    let new_window =
+    open(location, '_self');
+    new_window.close();
 }

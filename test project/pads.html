@@ -8,7 +8,7 @@
     <title>Xerxes Ltd</title>
     <style>
       body{
-          background-image: url(monkey-chimpanse-black-white-bw-preview.jpg);
+          background-color: darkgrey;
           min-height: 100%;
           background-attachment: fixed;
           background-position: left;
@@ -41,39 +41,41 @@
       </div>
     </div>
   </nav>
-
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
-    <div class="col-md-6 p-lg-5 mx-auto my-5">
+  <div style="display:block;height: 600px; background-color: white; margin: 2%; margin-top: 7%;margin-bottom: 1%; padding: 7%;box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);">
+    <div class="col-sm-8 col-md-6 p-lg-5 mx-auto my-5">
       <h1 class="display-3 fw-bold">Designed for Pure Racing</h1>
-      <h3 class="fw-normal text-muted mb-3">Achieve peak performance with Xerxes brake pads</h3>
+      <h3 class="fw-normal text-muted mb-3">Achieve peak performance with Xerxes brake pads</h3><br>
+      <br><button class="btn btn-lg" type="button" onclick="poep()"><p>Scroll down to see our products.</p></button>
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-  </div>
-  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+</div>
+  <div style="margin: 10%;" id="poppy">
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3" style="box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">Performance brake pads</h1>
-      <p class="col-md-8 fs-4"style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, laudantium distinctio! Rerum, illo aspernatur, sunt adipisci ea mollitia voluptatem sit expedita aut cupiditate iure aliquam magni accusamus fuga nostrum deleniti!<br></p>
+      <p class="col-md-8 col-sm-6 fs-4"style="text-align: justify;">Premium Race brake pads which can perform well even in temperatures upto 696°C and can perform well over 50°C.<br><img src="b2.png" style="display: block; width: 100%;"><b>Price: ₹4000<br></b></p>
 
       <button class="btn btn-secondary btn-lg" type="button" onclick="pads(1)" id="1">Buy</button>
     </div>
   </div>
-  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3" style="box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">Performance brake rotors</h1>
-      <p class="col-md-8 fs-4" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, laudantium distinctio! Rerum, illo aspernatur, sunt adipisci ea mollitia voluptatem sit expedita aut cupiditate iure aliquam magni accusamus fuga nostrum deleniti!<br></p>
-
+      <p class="col-md-8 fs-4" style="text-align: justify;">Premium Race brake rotors which can perform well even in temperatures upto 696°C and can perform well over 50°C. Used in formula 2 racing teams like Barboro and BlueCow. <br><img src="b1.png" style="display: block; width: 100%;"><b>Price: ₹10000</b><br></p>
+      
       <button class="btn btn-secondary btn-lg" type="button" onclick="pads(2)" id="2" >Buy</button>
     </div> 
   </div>
-  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3" style="box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">Performance brake lines</h1>
-      <p class="col-md-8 fs-4"style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, laudantium distinctio! Rerum, illo aspernatur, sunt adipisci ea mollitia voluptatem sit expedita aut cupiditate iure aliquam magni accusamus fuga nostrum deleniti!<br></p>
+      <p class="col-md-8 fs-4"style="text-align: justify;">Premium Race brake lines which can perform well even in temperatures upto 696°C and can perform well over 50°C. Made out of stainless steel and had braided design to dissipate heat very well. <br><img src="b3.png" style="display: block; width: 100%;"><b>Price: ₹1400<br></b></p>
 
       <button class="btn btn-secondary btn-lg" type="button" onclick="pads(3)" id="3">Buy</button>
     </div>
   </div>
+</div>
   
   <script src="xrxs.js"></script>
   <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
