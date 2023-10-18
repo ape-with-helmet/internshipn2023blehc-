@@ -1,0 +1,11 @@
+npm i -g npm@latest
+
+RUles to create components:
+1 first letter of the file name of components is in caps.
+2 file name and component name should be same
+3 on one file you can create only one component.
+
+types of components:
+1 functional component.
+2 arrow functional component.
+3 class component

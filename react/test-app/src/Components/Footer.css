@@ -1,0 +1,9 @@
+.south{
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px;
+    padding: 30px;
+}
