@@ -11,14 +11,20 @@ const courseSchema = new mongoose.Schema({
         unique : true,
     },
     duration : {
-        type : Number,
+        type : String,
         required : true,
     },
     description : {
         type : String,
         required : true,
     },
+    student : [
+        {
+            type : mongoose.Schema.Types.ObjectId,
+            ref : "Student",
+        }
+    ]
 }, {timestamps : true}
 )
 
-module.exports = mongoose.model('Course',courseSchema)
+module.exports = mongoose.model("Course",courseSchema)

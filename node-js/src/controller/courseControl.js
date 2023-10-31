@@ -4,7 +4,7 @@ const createCourse = async function(req,res){
     try{
         let course = req.body;
         let {name,code,duration,description}=course;
-        if (!name || !code || !duration || !description){
+        if (!name || !code || !duration || !description || !student){
             return res.send({message : "Please provide all information !"})
         }
         
@@ -17,11 +17,11 @@ const createCourse = async function(req,res){
         if (uniquePhone) {
             return res.send({message : "code already exists!"})
         }
-        let createStu = await courseModel.create(course)
-        return res.send({message : createStu})
+        let createCou = await courseModel.create(course)
+        return res.send({message : createCou})
     }catch(err){
         console.log("server error",err);
     }
 }
 
-module.exports.createStudent = createCourse;
+module.exports.createCourse = createCourse;

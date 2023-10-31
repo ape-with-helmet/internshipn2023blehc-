@@ -12,4 +12,4 @@ router.get('/',(req,res)=>{
 router.post('/student',createStudent) //POST method for Create
 router.post('/course',createCourse)
 
-module.exports=router;
+module.exports = router;
