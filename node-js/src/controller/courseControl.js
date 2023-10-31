@@ -24,4 +24,4 @@ const createCourse = async function(req,res){
     }
 }
 
-module.exports.createCourse = createCourse;
+module.exports = {createCourse};
