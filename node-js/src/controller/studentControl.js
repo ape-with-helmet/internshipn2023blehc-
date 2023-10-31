@@ -8,31 +8,30 @@ const createStudent = async function(req,res){
         if (!fname || !lname || !email || !password || !address || !mobile){
             return res.send({message : "Please provide all information !"})
         }
-        // let valEmail = validEmail(email);
-        // if (!valEmail) {
-        //     return res.status(500).send({message : "please enter valid email: "})
-        // }
-        // let valPass = validPassword(password);
-        // if (!valPass) {
-        //     return res.status(500).send({message : "please enter valid password: "})
-        // }
-        // let valMob = validMobile(mobile);
-        // if (!valMob) {
-        //     return res.status(500).send({message : "please enter valid mobile number: "})
-        // }
-        console.log(validEmail(email));
+        let valEmail = validEmail(email);
+        if (!valEmail) {
+            return res.status(500).send({message : "please enter valid email: "})
+        }
+        let valPass = validPassword(password);
+        if (!valPass) {
+            return res.status(500).send({message : "please enter valid password: "})
+        }
+        let valMob = validMobile(mobile);
+        if (!valMob) {
+            return res.status(500).send({message : "please enter valid mobile number: "})
+        }
         
-        // //unique validation
-        // let uniqueEmail = await studentModel.findOne({email})
-        // if (uniqueEmail) {
-        //     return res.send({message : "Email already exists!"})
-        // }
-        // let uniquePhone = await studentModel.findOne({mobile})
-        // if (uniquePhone) {
-        //     return res.send({message : "Phone already exists!"})
-        // }
-        // let createStu = await studentModel.create(student)
-        // return res.send({message : createStu})
+        //unique validation
+        let uniqueEmail = await studentModel.findOne({email})
+        if (uniqueEmail) {
+            return res.send({message : "Email already exists!"})
+        }
+        let uniquePhone = await studentModel.findOne({mobile})
+        if (uniquePhone) {
+            return res.send({message : "Phone already exists!"})
+        }
+        let createStu = await studentModel.create(student)
+        return res.send({message : createStu})
     }catch(err){
         console.log(err);
     }
@@ -72,7 +71,7 @@ let loginStudent = async (req,res)=>{
         }
         const token = jwt.sign({
             studentId:matchStudent._id.toString(),
-        },mernStack,
+        },"mernStack",
         {
             expiresIn:"12000sec"
         })
